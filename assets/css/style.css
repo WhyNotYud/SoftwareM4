@@ -353,3 +353,37 @@
     margin-bottom: -45px;
     border-radius: 10px 10px 0 0;
 }
+
+/*Our Goal*/
+.section-goal {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-goal .inner-wrap .inner-desc {
+    color: #777777;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.section-goal .inner-wrap .inner-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.section-goal .inner-wrap .inner-item i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--color-bg-one);
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.section-goal .inner-wrap .inner-item span {
+    color: #777777;
+    font-size: 18px;
+}
