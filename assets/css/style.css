@@ -1,7 +1,6 @@
 .header {
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
     background: var(--color-bg-one);
-    background-attachment: fixed;
     padding: 0 40px;
 }
 
@@ -69,4 +68,88 @@
     text-align: center;
     background-color: #fff;
     border-radius: 10px;
+}
+
+/*Section One*/
+.section-one {
+    background-image: url("../images/background.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px 0;
+    position: relative;
+}
+
+.section-one::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.section-one .inner-wrap {
+    position: relative;
+    width: 50%;
+}
+
+.section-one .inner-wrap .inner-sub-title {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section-one .inner-wrap .inner-title {
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.section-one .inner-wrap .inner-desc {
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.section-one .inner-wrap .inner-button {
+    margin-top: 30px;
+    height: auto;
+}
+
+.section-one .inner-wrap .inner-button .button-two {
+    background-color: var(--color-two);
+    color: var(--color-text);
+    border-color: var(--color-two);
+}
+
+.section-one .inner-wrap .inner-button .button-two-outline {
+    background-color: transparent;
+    color: white;
+    border-color: #464646;
+}
+
+.section-one .inner-wrap .inner-button .button-two-outline:hover {
+    background-color: var(--color-two);
+    color: var(--color-text);
+    border-color: var(--color-two);
+}
+
+.section-one .button {
+    margin-right: 10px;
+}
+
+/*Button*/
+.button {
+    display: inline-block;
+    color: var(--color-text);
+    font-weight: bold;
+    background: #fff;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border: 2px solid #fff;
 }
