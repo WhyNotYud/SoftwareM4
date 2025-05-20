@@ -457,7 +457,7 @@
 /*Form*/
 .contact-form {
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .contact-form .inner-wrap {
@@ -526,6 +526,10 @@
     color: black;
 }
 
+/*Google Map*/
+.google-map .inner-google-map {
+    width: 100%;
+}
 
 
 /*Footer*/
