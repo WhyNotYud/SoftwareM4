@@ -403,6 +403,59 @@
     border-radius: 10px 10px 0 0;
 }
 
+@media (max-width: 991.98px) {
+    .download .inner-wrap {
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .download .inner-wrap .inner-image {
+        width: 60%;
+        margin: 0 auto;
+        aspect-ratio: 4/5;
+        overflow: hidden;
+    }
+
+    .download .inner-wrap .inner-image img {
+        object-fit: cover;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+    .download .inner-wrap .inner-content {
+        text-align: center;
+    }
+
+    .download .inner-wrap .inner-content .inner-title {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .download .inner-wrap .inner-content .inner-title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .download .inner-wrap .inner-image {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .download .inner-wrap .inner-image img {
+        object-fit: cover;
+        height: 100%;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+}
+
 /*Our Goal*/
 .section-goal {
     padding-top: 50px;
