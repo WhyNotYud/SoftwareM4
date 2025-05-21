@@ -491,6 +491,34 @@
     font-size: 18px;
 }
 
+@media (max-width: 991.98px) {
+    .section-goal .inner-wrap {
+        padding: 0 20px;
+    }
+    .section-goal .inner-wrap .inner-list {
+        margin-top: 0;
+        display: block;
+    }
+
+    .section-goal .inner-wrap .inner-list .inner-item {
+        margin-top: 20px;
+    }
+
+    .section-goal .inner-wrap .inner-list .inner-item span {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section-goal .inner-wrap .inner-title {
+        text-align: center;
+    }
+
+    .section-goal .inner-wrap .inner-desc {
+        text-align: center;
+    }
+}
+
 /*Core Features*/
 .core-features {
     background-color: var(--color-bg-one);
