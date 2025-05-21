@@ -526,6 +526,78 @@
     color: black;
 }
 
+/*Testimonials*/
+.testimonials {
+    background-color: #31363B;
+    padding: 80px 0 110px;
+}
+
+.testimonials .inner-sub-title {
+    color: #BBBBBB;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.testimonials .inner-title {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.testimonials .inner-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials .inner-list .inner-item {
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 35px;
+    position: relative;
+}
+
+.testimonials .inner-list .inner-item .inner-desc {
+    font-size: 25px;
+    font-style: italic;
+    line-height: 1.4;
+    color: #777777;
+}
+
+.testimonials .inner-list .inner-item .inner-desc::after {
+    content: "\f10e";
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands", sans-serif;
+    position: absolute;
+    right: 50px;
+}
+
+.testimonials .inner-list .inner-item .inner-item-bottom {
+    display: flex;
+    margin-top: 40px;
+}
+
+.testimonials .inner-list .inner-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonials .inner-list .inner-item .inner-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #31363B;
+}
+.testimonials .inner-list .inner-item .inner-position {
+    color: #777777;
+    margin-top: 8px;
+}
+
+
 /*Action*/
 .action {
     background-color: var(--color-bg-two);
