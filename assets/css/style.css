@@ -1158,6 +1158,32 @@
     transform: translate(-50%, -50%);
 }
 
+@media (max-width: 991.98px) {
+    .action .inner-main {
+        aspect-ratio: 1.15/1;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .action .inner-main {
+        aspect-ratio: 5/3;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .action {
+        padding: 80px 10px;
+    }
+
+    .action .inner-title {
+        font-size: 35px;
+    }
+
+    .action .inner-main {
+        aspect-ratio: 4/3;
+    }
+}
+
 /*Google Map*/
 .google-map .inner-google-map {
     width: 100%;
