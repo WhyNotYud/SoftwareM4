@@ -526,6 +526,58 @@
     color: black;
 }
 
+/*Action*/
+.action {
+    background-color: var(--color-bg-two);
+    padding: 80px;
+}
+
+.action .inner-title {
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0;
+}
+
+.action .inner-main {
+    aspect-ratio: 16/9;
+}
+
+.action .inner-main .inner-image {
+    background-image: url("../images/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.action .inner-main .inner-action-button {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+}
+
+.action .inner-main .inner-action-button::after {
+    display: inline-block;
+    content: "\f04b";
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands", sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /*Google Map*/
 .google-map .inner-google-map {
     width: 100%;
