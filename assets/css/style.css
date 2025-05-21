@@ -585,7 +585,7 @@
     font-size: 22px;
 }
 
-    /*Experts*/
+/*Experts*/
 .experts {
     background-color: var(--color-bg-one);
     padding: 80px 0;
@@ -657,6 +657,57 @@
     border-radius: 12px 12px 0 0;
 }
 
+/*Preview*/
+.preview {
+    background-color: var(--color-bg-one);
+    position: relative;
+}
+
+.preview .inner-image {
+    aspect-ratio: 16/9;
+}
+
+.preview .inner-image img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.preview .inner-main {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 75%;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.preview .inner-main .inner-sub-title {
+    color: #777777;
+    font-size: 18px;
+}
+
+.preview .inner-main .inner-title {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.preview .inner-main .button {
+    background-color: #232323;
+    color: white;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+
+.preview .inner-main .button:hover {
+    background-color: black;
+}
 /*Testimonials*/
 .testimonials {
     background-color: #31363B;
