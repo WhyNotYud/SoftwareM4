@@ -691,6 +691,46 @@
     color: black;
 }
 
+@media (max-width: 991.98px) {
+    .contact-form .inner-wrap {
+        padding: 100px 40px;
+    }
+
+    .contact-form .inner-form-top {
+        flex-wrap: wrap;
+    }
+
+    .contact-form .inner-form-top label {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact-form .inner-wrap {
+        padding: 30px;
+    }
+
+    .contact-form .inner-sub-title {
+        text-align: center;
+    }
+
+    .contact-form .inner-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .contact-form .inner-button {
+        text-align: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact-form .inner-title {
+        font-size: 30px;
+    }
+}
+
 /*Careers*/
 .careers {
     background-color: #1B2026;
@@ -984,7 +1024,7 @@
 
 @media (max-width: 767.98px) {
     .preview .inner-main {
-       bottom: 50px;
+        bottom: 50px;
     }
 
     .preview .inner-main .inner-item {
@@ -1106,6 +1146,7 @@
         width: 100%;
     }
 }
+
 /*Action*/
 .action {
     background-color: var(--color-bg-two);
