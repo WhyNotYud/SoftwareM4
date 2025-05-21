@@ -754,6 +754,7 @@
     .careers {
         padding: 10px;
     }
+
     .careers .inner-wrap {
         flex-direction: column;
         justify-content: center;
@@ -887,7 +888,7 @@
     }
 
     .experts .inner-item {
-       width: 45%;
+        width: 45%;
         margin-right: 10px;
         margin-left: 10px;
         margin-top: 20px;
@@ -957,6 +958,41 @@
 
 .preview .inner-main .button:hover {
     background-color: black;
+}
+
+@media (max-width: 991.98px) {
+    .preview {
+        padding-bottom: 300px;
+    }
+
+    .preview .inner-main {
+        width: 65%;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+
+    .preview .inner-main .inner-item {
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .preview .inner-main .inner-item .button {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .preview .inner-main {
+       bottom: 50px;
+    }
+
+    .preview .inner-main .inner-item {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 /*Testimonials*/
