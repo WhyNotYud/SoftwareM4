@@ -526,7 +526,66 @@
     color: black;
 }
 
-/*Experts*/
+/*Careers*/
+.careers {
+    background-color: #1B2026;
+    padding: 100px;
+}
+
+.careers .inner-wrap {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 60px 30px 60px 80px;
+}
+
+.careers .inner-left {
+    flex: 1;
+}
+
+.careers .inner-left .inner-sub-title {
+    color: #777777;
+    font-weight: bold;
+}
+
+.careers .inner-left .inner-title {
+    margin-top: 10px;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.careers .inner-right {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.careers .inner-right .inner-item {
+    width: 80%;
+    border: 1px solid rgba(119, 119, 119, 0.11);
+    border-radius: 10px;
+    height: 60px;
+    color: #777777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+.careers .inner-right .inner-item .inner-item-left span {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.careers .inner-right .inner-item i {
+    font-size: 22px;
+}
+
+    /*Experts*/
 .experts {
     background-color: var(--color-bg-one);
     padding: 80px 0;
