@@ -208,6 +208,7 @@
     .section-one .inner-wrap .inner-title {
         font-size: 40px;
     }
+
     .section-one .inner-button .button {
         width: 80%;
         margin-left: auto;
@@ -356,6 +357,7 @@
         margin-left: 20px;
         margin-bottom: 5px;
     }
+
     .feature .button {
         margin-top: 10px;
     }
@@ -495,6 +497,7 @@
     .section-goal .inner-wrap {
         padding: 0 20px;
     }
+
     .section-goal .inner-wrap .inner-list {
         margin-top: 0;
         display: block;
@@ -747,6 +750,65 @@
     font-size: 22px;
 }
 
+@media (max-width: 991.98px) {
+    .careers {
+        padding: 10px;
+    }
+    .careers .inner-wrap {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .careers .inner-left .inner-title {
+        font-size: 50px;
+    }
+
+    .careers .inner-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .careers .inner-right .inner-item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .careers .inner-wrap {
+        padding: 20px;
+    }
+
+    .careers .inner-left {
+        text-align: center;
+    }
+
+    .careers .inner-right {
+        width: 100%;
+        margin: auto;
+    }
+
+    .careers .inner-right .inner-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .careers .inner-wrap .inner-title {
+        font-size: 30px;
+    }
+
+    .careers .inner-right .inner-item {
+        padding: 10px;
+    }
+
+    .careers .inner-right .inner-item i {
+        font-size: 18px;
+    }
+}
+
 /*Experts*/
 .experts {
     background-color: var(--color-bg-one);
@@ -870,6 +932,7 @@
 .preview .inner-main .button:hover {
     background-color: black;
 }
+
 /*Testimonials*/
 .testimonials {
     background-color: #31363B;
@@ -936,6 +999,7 @@
     font-weight: bold;
     color: #31363B;
 }
+
 .testimonials .inner-list .inner-item .inner-position {
     color: #777777;
     margin-top: 8px;
